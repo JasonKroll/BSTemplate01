@@ -1,0 +1,6 @@
+<% if notice.present? %>
+  <%= alert_box notice, dismissible: true, context: :success %>
+<% end %>
+<% if alert.present? %>            
+  <%= alert_box alert, dismissible: true, context: :danger %>
+<% end %>

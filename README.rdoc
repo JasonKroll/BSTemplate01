@@ -1,0 +1,28 @@
+== README
+
+Simple template app using the following:
+
+* Bootstrap
+
+* Devise
+
+* CanCan
+
+* Bootstrap Helpers (gem 'bh', '~> 1.2')
+
+
+For testing:
+
+  * faker
+
+  * capybara
+
+  * guard-rspec
+
+  * launchy
+
+  * rspec-rails
+
+  * factory_girl_rails
+
+<tt>rake doc:app</tt>.
